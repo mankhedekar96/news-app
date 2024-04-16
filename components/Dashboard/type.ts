@@ -3,5 +3,6 @@ export type NewsItemType = {
     title: string,
     source: {
         name: string
-    }
+    },
+    pinned?: boolean
 }
